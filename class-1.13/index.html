@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.13</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Class 1.13: Compl
+        ax logic</h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+
+    <xmp>
+/*
+
+*/
+// two kind of operator = এবং/&& অথবা/||
+
+/*
+age >= 21 and gender == Male
+age >= 18 and gender == Female
+
+everything else
+*/
+//কন্ডিশান নাম্বার ১
+var age1 = 22;
+var gender1 = "Male";
+var gender2 = "Female";
+if((age1==21 && gender1=="Male") || (age1==21 && gender2=="Female")) {
+    console.log("ছেলের বিয়ের বয়স হয়েছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়ে আরও তিন বছর বেশি হয়েছে। মেয়ের বিয়ের নুনতম বয়স ১৮ বছর।");
+}
+else if((age1==22 && gender1=="Male") || (age1==22 && gender2=="Female")) {
+    console.log("ছেলের বিয়ের বয়স হয়ে আরও এক বছর বেশি হয়েছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়ে আরও চার বছর বেশি হয়েছে। মেয়ের বিয়ের নুনতম বয়স ১৮ বছর।");
+    console.log(" ");
+}
+else {
+    console.log("বিয়ের বয়স হয়নি।");
+}
+
+//কন্ডিশান নাম্বার ২
+var age2 = 21;
+var gender1 = "Male";
+var gender2 = "Female";
+if((age2==21 && gender1=="Male") || (age2==21 && gender2=="Female")) {
+    console.log("ছেলের বিয়ের বয়স হয়েছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়ে আরও তিন বছর বেশি হয়েছে। মেয়ের বিয়ের নুনতম বয়স ১৮ বছর।");
+}
+else if((age2==22 && gender1=="Male") || (age2==22 && gender2=="Female")) {
+    console.log("ছেলের বিয়ের বয়স হয়ে আরও এক বছর বেশি হয়েছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়ে আরও চার বছর বেশি হয়েছে। মেয়ের বিয়ের নুনতম বয়স ১৮ বছর।");
+}
+else {
+    console.log("বিয়ের বয়স হয়নি।");
+}
+
+//কন্ডিশান নাম্বার ৩
+var age4 = 18;
+var gender1 = "Male";
+var gender2 = "Female";
+if((age4==18 && gender1=="Male") || (age4==18 && gender2=="Female")) {
+    console.log(" ");
+    console.log("ছেলের বিয়ের বয়স হতে আরও তিন বছর বাকি আছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়েছে। মেয়ের বিয়ের নুনতম বয়স ১৮ বছর।");
+}
+else if((age4==21 && gender1=="Male") || (age4==21 && gender2=="Female")) {
+    console.log("ছেলের বিয়ের বয়স হয়েছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়ে আরও তিন বছর বেশি হয়েছে। মেযের বিয়ের নুনতম বয়স ১৮ বছর।");
+}
+else if((age4==22 && gender1=="Male") || (age4==22 && gender2=="Female")) {
+    console.log("ছেলের বিয়ের বয়স হয়ে আরও এক বছর বেশি হয়েছে। ছেলের বিয়ের নুনতম বয়স ২১ বছর।");
+    console.log("মেয়ের বিয়ের বয়স হয়ে আরও চার বছর বেশি হয়েছে। মেযের বিয়ের নুনতম বয়স ১৮ বছর।");
+}
+else {
+    console.log("বিয়ের বয়স হয়নি।া্িািই");
+}
+
+//কন্ডিশান নাম্বার ৪
+var age3 = 18;
+var gender = "Male";
+var gender = "Female";
+if((age3>=21 && gender=="Male") || (age3>=18 && gender=="Female") ) {
+    console.log(" ");
+    console.log("মেয়ের বিয়ের বয়স হয়েছে।");
+    console.log("ছেলের বিয়ের বয়স হয়নি।");
+}
+else {
+    console.log("বিয়ের বয়স হয়নি।");
+}
+    </xmp> 
+
+    <script src="script.js"></script>
+</body>
+</html>
