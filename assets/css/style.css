@@ -82,3 +82,8 @@ a:hover { text-decoration: none }
 .class-link ul li a:hover {
     color: #589814;
 }
+
+textarea {
+	width: 700px;
+	height: 300px;
+}
