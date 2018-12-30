@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.19</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Class 1.19: Loop project</h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+
+    <xmp>
+/*
+১.১৯ - লুপ প্রোজেক্ট
+*/
+
+
+let num = +process.argv[2];
+if(!Number.isInteger(num)) {
+    console.log("The provided value is not a number.");
+    process.exit();
+}
+
+for(let i = 1; i <=10; i++) {
+    console.log(`${num}x${i} = ${num*i}`);    
+}
+    </xmp> 
+
+    <script src="namota.js"></script>
+</body>
+</html>
