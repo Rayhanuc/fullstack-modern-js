@@ -30,4 +30,3 @@ btn.addEventListener('click', function(){
     var kotha = new SpeechSynthesisUtterance(reply);
     window.speechSynthesis.speak(kotha);
 });
-

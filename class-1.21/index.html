@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.21</title>
+
+    <style>
+        xmp {
+            width: 700px;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h1>Class 1.21: var, let, const and scoop</h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+    
+
+    <xmp>
+/*
+১.২১ - var, let, const এবং জাভাস্ক্রিপ্টে স্কোপ
+*/
+
+// Scope 
+var a = "This is a var";
+let b = "This is a let";
+console.log(a);
+console.log(b);
+const c = "This is a const";
+// Blog scoping as like as One sided Glass reflection.
+
+{
+    var d = "This is d";
+    console.log(d);
+    let e = "This is e in";
+    {
+        console.log(e);
+    }
+    console.log(e);
+}
+let e = "This is e out";
+console.log(d);
+console.log(e);
+a = "This is change a";
+b = "This is change b";
+console.log(a);
+console.log(b);
+    </xmp> 
+
+    <script src="script.js"></script>
+</body>
+</html>
