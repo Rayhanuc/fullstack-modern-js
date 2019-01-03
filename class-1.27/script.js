@@ -30,3 +30,6 @@ console.log(m(5,6));
 console.log(m(16,4));
 console.log(m(12,17));
 console.log(m(11,15));
+
+// More then one statement {} 
+// (argument, dkjf, jk, iu)=> {returnexpression}
