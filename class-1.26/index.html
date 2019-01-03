@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.26</title>
+
+</head>
+<body>
+
+    <h1>Class 1.26: IIFE and keep clean global scope</h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+    
+
+    <xmp>
+/*
+১.২৬ - IIFE এবং গ্লোবাল স্কোপ পরিস্কার রাখা
+*/
+
+!function() {
+    var x = 5;
+    console.log(x);
+}()
+
++function() {
+    var x = 5;
+    console.log(x);
+}() 
+    </xmp> 
+
+    <script src="script.js"></script>
+</body>
+</html>
