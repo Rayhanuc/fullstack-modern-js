@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.31</title>
+
+</head>
+<body>
+
+    <h1>Class 1.31: Object intro and object literal</h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+    
+    <xmp>
+/*
+১.৩১ - অবজেক্ট পরিচিতি ও অবজেক্ট লিটারাল
+*/
+
+// document.write("Example 1"+"</br>"+"<hr>" );
+
+var a = {
+    b:59,
+    c:"hello world",
+    d:function() {
+        console.log("This is d");
+    }
+}
+console.log(a.b);
+console.log(a.c);
+a.d();
+// literal
+var e = {
+    b:59,
+    c:"hello world",
+}
+var f = {
+    b:59,
+    c:"hello world",
+}
+console.log(e==f);
+
+var g = {
+    a:17,
+    b:"Bangladesh",
+}
+g.c = "hi!";
+delete g.a;
+console.log(g);
+    </xmp>
+
+    <script src="script.js"></script>
+</body>
+</html>
