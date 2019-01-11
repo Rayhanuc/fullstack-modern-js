@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.33</title>
+
+</head>
+<body>
+
+    <h1>Class 1.33: Constructor and factory</h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+    
+    <xmp>
+/*
+১.৩৩ - কনস্ট্রাক্টর ও ফ্যাক্টরী
+*/
+
+// name, age, gender
+
+// factory
+function CreateHuman(name,age,gender){
+    return {
+        name,
+        age,
+        gender
+    }
+}
+
+var a = CreateHuman("anam",60,"M");
+var b = CreateHuman("Hasin",100,"M");
+console.log(a);
+console.log(b);
+
+
+// Constructor
+function Human(name,age,gender){
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+}
+var c = new Human("Rayhan",40,"M");
+var d = new Human("Bishal",45,"M");
+console.log(c);
+console.log(d);
+    </xmp>
+
+    <script src="script.js"></script>
+</body>
+</html>
