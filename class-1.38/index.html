@@ -4,16 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Class 1.37</title>
+    <title>Class 1.38</title>
 
 </head>
 <body>
 
-    <h1>Class 1.37: For in loop</h1>
+    <h1>Class 1.38: For in loop</h1>
     <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
     
     <xmp>
+/*
+১.৩৮ - ফর...ইন লুপ
+*/
 
+var manush = {
+    name:"Rayhan",
+    age:100,
+    gender:"M",
+    city:"Dhaka",
+    hometown:"Chittagong"
+}
+console.log("Property name গুলা হচ্ছে।");
+// for in loop
+for(let item in manush) {
+    console.log(item);
+}
+
+console.log(" ");
+console.log("Value গুলা হচ্ছে।");
+for(let item in manush) {
+    console.log(manush[item]);
+}
+console.log(" ");
+console.log("Result");
+for(let item in manush) {
+    console.log(`my ${item} is ${manush[item]}`);
+}
     </xmp>
 
     <script src="script.js"></script>
