@@ -31,7 +31,7 @@ body {
 a:hover { text-decoration: none }
 
 .background {
-    background-image: url(../img/bg-1.jpg);
+    background-image: url(../img/bg-1.png);
 }
 
 .header-area {
@@ -40,7 +40,7 @@ a:hover { text-decoration: none }
     text-align: center;
     color: #fff;
     background-position: center center;
-    padding: 50px 0px;
+    padding: 250px 0px;
     text-decoration: none;
     position: relative;
     z-index: 1;
