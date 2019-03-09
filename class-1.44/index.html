@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.44</title>
+
+</head>
+<body>
+
+    <h1>Class 1.44: Ludu play </h1>
+    <h4>Press F12 or go to inspect element and go to console tab in development tool</h4>
+
+    <h1 class="result">0</h1>
+    <button class="action">Click Me</button>
+
+    <xmp>
+var result = document.querySelector(".result");
+var action = document.querySelector(".action");
+
+action.onclick = function(){
+    var ludu = Math.ceil(Math.random()*6);
+    result.innerHTML = ludu;
+}
+    </xmp>
+
+    <script src="script.js"></script>
+</body>
+</html>
