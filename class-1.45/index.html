@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 1.45</title>
+
+</head>
+<body>
+
+    <h1>Class 1.45: Watch  </h1>
+    <!-- <h4>Press F12 or go to inspect element and go to console tab in development tool</h4> -->
+    
+    <h1 class="result"></h1>
+    <xmp>
+        // JavaSctipt Code start
+        
+var target = document.querySelector(".result");
+
+
+function setTime(){
+    var d = new Date();
+
+    target.innerHTML = `${d.getHours()} : ${d.getMinutes()} : ${d.getSeconds()}`
+}
+
+setInterval(setTime,1000);
+
+    // JavaSctipt Code end
+    </xmp>
+
+    <script src="script.js"></script>
+</body>
+</html>
