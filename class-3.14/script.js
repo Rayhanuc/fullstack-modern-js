@@ -2,7 +2,7 @@ const btn = document.querySelector('.action');
 const result = document.querySelector('.result');
 
 // API RELATED CONSTANTS
-const BASE = "https://api.weatherstack.com/";
+const BASE = "http://api.weatherstack.com/";
 const KEY = "32d21ebaeca4813649bac17aec078a70";
 const PLACE = "Chittagong";
 
